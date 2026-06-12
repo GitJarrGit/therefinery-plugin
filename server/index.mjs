@@ -41,6 +41,13 @@ const MODELS = [
   { id: "grok-imagine-1-5", label: "Grok Imagine 1.5 (Video)", kind: "video", aspectRatios: ["16:9","9:16","1:1","2:3","3:2"], resolutions: ["480p","720p"], durations: [6], refs: true },
   { id: "veo-3-1-fast", label: "Veo 3.1 Fast (Video)", kind: "video", aspectRatios: ["16:9","9:16"], refs: true },
   { id: "veo-3-1", label: "Veo 3.1 (Video)", kind: "video", aspectRatios: ["16:9","9:16"], refs: true },
+  { id: "nano-banana-pro", label: "Nano Banana Pro (Google)", kind: "image", aspectRatios: ["1:1","16:9","9:16","4:3","3:4","2:3","3:2","21:9"], resolutions: ["1K","2K","4K"], refs: true },
+  { id: "flux-2", label: "FLUX.2 (Black Forest Labs)", kind: "image", aspectRatios: ["1:1","4:3","3:4","16:9","9:16","3:2","2:3"], resolutions: ["1K","2K"], refs: true },
+  { id: "grok-image", label: "Grok Image (xAI)", kind: "image", aspectRatios: ["1:1","2:3","3:2"], resolutions: ["Speed","Pro"], refs: true },
+  { id: "gemini-omni-flash", label: "Gemini Omni Flash (Video)", kind: "video", aspectRatios: ["16:9","9:16"], resolutions: ["720p","1080p","4k"], durations: [4,6,8,10], refs: true },
+  { id: "happyhorse-1", label: "HappyHorse 1.0 (Video)", kind: "video", aspectRatios: ["16:9","9:16","1:1","4:3","3:4"], resolutions: ["720p","1080p"], durations: [5,10,15], refs: true },
+  { id: "wan-2-7", label: "Wan 2.7 (Video)", kind: "video", aspectRatios: ["16:9","9:16","1:1","4:3","3:4"], resolutions: ["720p","1080p"], durations: [5,10,15], refs: true },
+  { id: "topaz-video-upscale", label: "Topaz Video Upscale (Video)", kind: "video", aspectRatios: ["16:9"], resolutions: ["2\u00d7","4\u00d7"], refs: true, requiresReference: true, promptless: true, videoReference: "reference must be a public VIDEO URL ending in .mp4" },
 ];
 
 // ---------------------------------------------------------------------------
@@ -132,7 +139,7 @@ const TOOLS = [
   {
     name: "refinery_models",
     description:
-      "List the AI models available on therefinery.com (ids, image/video kind, aspect ratios, resolutions, video durations, reference-image support). Call this before refinery_generate if unsure of a model id.",
+      "List the 20 AI models available on therefinery.com (ids, image/video kind, aspect ratios, resolutions, video durations, reference-image support). Call this before refinery_generate if unsure of a model id.",
     annotations: { title: "List models", readOnlyHint: true },
     inputSchema: { type: "object", properties: {} },
     handler: async () => text(MODELS),
