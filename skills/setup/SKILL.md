@@ -9,7 +9,7 @@ The bundled MCP server needs the user's own therefinery.com login before any `re
 
 ## Steps
 
-1. **Check for an account.** Ask whether the user has a therefinery.com account. If not, send them to https://therefinery.com/login (Create account). Note: the service requires users to be 18+ and resident in the United States, Canada, or Australia. New accounts include free starter credits.
+1. **Check for an account.** Ask whether the user has a therefinery.com account. If not, send them to https://therefinery.com/login (Create account). Note: the service requires users to be 18+ and resident in the United States or Canada. New accounts include free starter credits.
 
 2. **Create the credentials file.** Do NOT ask the user to paste their password into chat. Instead, instruct them to run this in their own terminal, replacing the placeholders:
 
