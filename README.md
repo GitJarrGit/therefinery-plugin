@@ -48,7 +48,7 @@ Optional: `THEREFINERY_URL` to point at a different instance (default `https://t
 - Generation **spends real credits** (1 credit = 1¢) — Claude will see cost and remaining balance in the tool result.
 - Video generations can take several minutes; the generate tool waits up to 8 minutes by default, then hands you a task id to poll.
 - The session cookie lives only in the server process memory; credentials are read from your config file/env and sent only to therefinery.com.
-- therefinery.com requires users to be **18+** and resident in the **United States, Canada, or Australia** — see the [Terms](https://therefinery.com/terms).
+- therefinery.com requires users to be **18+** and resident in the **United States or Canada** — see the [Terms](https://therefinery.com/terms).
 
 ## Privacy Policy
 
