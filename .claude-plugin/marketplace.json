@@ -5,8 +5,8 @@
     {
       "name": "therefinery",
       "source": "./",
-      "description": "Generate AI images & video on therefinery.com from Claude: run any of the 13 models, browse boards, check credits, mint share links, download results.",
-      "version": "0.2.0"
+      "description": "Generate AI images & video on therefinery.com from Claude: run any of the 20 models, browse boards, check credits, mint share links, download results.",
+      "version": "0.3.0"
     }
   ]
 }
