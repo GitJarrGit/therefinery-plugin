@@ -1,0 +1,12 @@
+{
+  "name": "therefinery",
+  "version": "0.2.0",
+  "description": "Generate AI images & video on therefinery.com from Claude: run any of the 13 models, browse boards, check credits, mint share links, download results.",
+  "author": {
+    "name": "The Refinery",
+    "email": "support@therefinery.com"
+  },
+  "homepage": "https://therefinery.com",
+  "license": "MIT",
+  "keywords": ["therefinery", "ai-images", "image-generation", "video-generation"]
+}
