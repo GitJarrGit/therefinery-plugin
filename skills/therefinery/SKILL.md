@@ -9,7 +9,7 @@ therefinery.com is the user's AI image & video canvas. The `therefinery` MCP ser
 
 ## Workflow
 
-1. **Pick a model.** Call `refinery_models` if unsure. Image models: nano-banana-2, nano-banana, seedream-4-5 (photoreal default), seedream-5-lite, imagen4, gpt-image-2, topaz-upscale (upscaler, needs a reference, no prompt). Video models: seedance-2, seedance-2-fast, kling-3, grok-imagine-1-5, veo-3-1, veo-3-1-fast.
+1. **Pick a model.** Call `refinery_models` if unsure. Image models: nano-banana-2, nano-banana, nano-banana-pro, seedream-4-5 (photoreal default), seedream-5-lite, imagen4, gpt-image-2, flux-2, grok-image, topaz-upscale (upscaler, needs a reference, no prompt). Video models: seedance-2, seedance-2-fast, kling-3, grok-imagine-1-5, veo-3-1, veo-3-1-fast, gemini-omni-flash, happyhorse-1, wan-2-7, topaz-video-upscale (needs a public .mp4 URL reference, no prompt).
 2. **Generate** with `refinery_generate`. Pass only options the model supports (check `refinery_models` output). Reference images must be public URLs; video models use refs as first frame + optional last frame.
 3. The result is saved to a board automatically (first board unless `boardId` given). Offer the user a share link (`refinery_share`) or a local download (`refinery_download`).
 
