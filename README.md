@@ -8,7 +8,7 @@ The bundled MCP server logs into your therefinery account and exposes these tool
 
 | Tool | Purpose |
 |------|---------|
-| `refinery_models` | List the 13 available models (image + video) with valid options |
+| `refinery_models` | List the 20 available models (image + video) with valid options |
 | `refinery_generate` | Generate an image/video and save it to a board (charges credits) |
 | `refinery_task_status` / `refinery_save_result` | Recover long-running generations that outlived the wait |
 | `refinery_boards` / `refinery_create_board` | List or create boards |
